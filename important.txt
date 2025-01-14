@@ -1,0 +1,16 @@
+download xampp application
+put code on htdocs folder 
+==> start Apache and on localhost/folder_name
+
+To send form data to mail id
+==> download php mailer *GitHub file
+and take 3 files ==> PHPMailer.php ==> Exception.php ==> SMTP.php
+and use three file in your folder 
+
+and GitHub repo has code use code as same and make changes 
+
+
+==> As these file was index.html and changed to index.php because of addition of php inside html document, 
+so to Access use localhost and file should be in xampp hotdocs folder
+
+==> hosted through infinity free and received 1yr valid free ssl certificate, upgrade
