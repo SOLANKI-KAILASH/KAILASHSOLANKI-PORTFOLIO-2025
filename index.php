@@ -269,8 +269,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     require 'PHPMailer/SMTP.php';
     require 'PHPMailer/Exception.php';
 
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
-    $mail->Debugoutput = 'html';
     $mail = new PHPMailer(true);
     $mail->isSMTP();
     $mail->SMTPAuth = true;
