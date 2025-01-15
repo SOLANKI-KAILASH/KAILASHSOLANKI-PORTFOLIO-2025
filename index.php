@@ -227,7 +227,7 @@
                 <br>
                 <label for="about_project" id="about_project_label">| About Project </label>
                 <input type="text" name="about_project" id="about_project"
-                    placeholder="I want to discuss your about........" required>
+                    placeholder="I want to discuss you about........" required>
                 <button type="submit" id="button-style2">Send Here</button>
             </form>
         </div>
