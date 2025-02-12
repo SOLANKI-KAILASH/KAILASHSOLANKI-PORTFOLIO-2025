@@ -494,6 +494,26 @@ input {
     font-size: 28px;
 }
 
+#certificates-title{
+    font-family: Handlee;
+    font-size: 35px;
+    background-color: #67e4ef ;
+}
+
+.certificates{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 20px;
+}
+
+.certificates-label{
+    height: 350px;
+    width: 460px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
 /* For tablets (landscape) and smaller screens */
 @media (max-width: 1024px) {
     body {
@@ -741,9 +761,15 @@ input {
 
     #nav-name {
         position: relative;
-        font-size: 26px;
+        font-size: 23px;
         font-family: "Comforter";
         bottom: 0px;
+    }
+    .nav-title {
+    display: flex;
+    font-family: "Inter";
+    font-size: 15px;
+    cursor: pointer;
     }
 
     .name-photo {
@@ -961,6 +987,13 @@ input {
     .footer-handles {
         gap: 20px;
     }
+    
+    .certificates-label{
+        height: 250px;
+        width: 350px;
+    }
+    
+    
 }
 
 /* For large mobile phones */
@@ -1214,6 +1247,17 @@ input {
     .footer-handles {
         gap: 40px;
     }
+ 
+    .certificates{
+        gap: 0px;
+        row-gap: 10px;
+    }
+    
+    .certificates-label{
+        height: 250px;
+        width: 330px;
+    }
+    
 }
 
 /* For small mobile phones */
@@ -1243,6 +1287,20 @@ input {
 
     #menu-navbar {
         display: flex;
+    }
+    #certificates-title{
+        font-size: 30px;
+
+    }
+    
+    .certificates{
+        gap: 0px;
+        row-gap: 10px;
+    }
+    
+    .certificates-label{
+        height: 240px;
+        width: 310px;
     }
 
 }

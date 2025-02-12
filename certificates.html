@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/kailash_photo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="kailash_photo.png" type="image/x-icon">
+    <title>Kailash Solanki Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="nav-name" onclick="window.location.href='index.html'">Kailash Solanki Portfolio💫</li>
+                <li class="nav-title hide" onclick="window.location.href='index.html#f-project'">Projects</li>
+                <li class="nav-title hide" onclick="window.location.href='certificates.html'">Certificates</li>
+                <li class="nav-title hide" onclick="window.location.href='Kailash Solanki Resume.pdf'">Download my CV</li>
+                <li class="nav-title hide" onclick="window.location.href='index.html#cnt-contacts'">Contact me</li>
+                <li id="menu-navbar" onclick=showSidebar()><img src="images/menu.png" id="nav-img" alt="" srcset="">
+                </li>
+            </ul>
+            <ul class="sidebar">
+                <li class="cancel" onclick=hideSidebar()><img src="images/cancel.png" id="nav-img" alt=""></li>
+                <li class="nav-title-sidebar" onclick="window.location.href='index.html#f-project'">Projects</li>
+                <li class="nav-title-sidebar" onclick="window.location.href='certificates.html'">Certificates</li>
+                <li class="nav-title-sidebar" onclick="window.location.href='Kailash Solanki Resume.pdf'">Download my CV</li>
+                <li class="nav-title-sidebar" onclick="window.location.href='index.html#cnt-contacts'">Contact me</li>
+            </ul>
+        </nav><br>
+        <strong id="certificates-title">Certifications Gallery</strong><br><br>
+        <div class="certificates">
+            <img src="digitalmarketing-wscubetech.png" alt="" class="certificates-label">
+            <img src="dominos-wscubetech.png" alt="" class="certificates-label">
+            <img src="sql-hackerrank.png" alt="" class="certificates-label">
+            <img src="python-hackerrank.png" alt="" class="certificates-label">
+            <img src="python-tops.png" alt="" class="certificates-label">
+        </div>
+        <script src="script.js"></script>
+    </header>

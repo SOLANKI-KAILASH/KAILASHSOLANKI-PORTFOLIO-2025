@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -13,13 +12,13 @@
     <link rel="shortcut icon" href="kailash_photo.png" type="image/x-icon">
     <title>Kailash Solanki Portfolio</title>
 </head>
-
 <body>
     <header>
         <nav>
             <ul>
-                <li id="nav-name">Kailash Solanki Portfolio💫</li>
+                <li id="nav-name" onclick="window.location.href='index.html'">Kailash Solanki Portfolio💫</li>
                 <li class="nav-title hide" onclick="window.location.href='#f-project'">Projects</li>
+                <li class="nav-title hide" onclick="window.location.href='certificates.html'">Certificates</li>
                 <li class="nav-title hide" onclick="window.location.href='Kailash Solanki Resume.pdf'">Download my CV
                 </li>
                 <li class="nav-title hide" onclick="window.location.href='#cnt-contacts'">Contact me</li>
@@ -29,8 +28,8 @@
             <ul class="sidebar">
                 <li class="cancel" onclick=hideSidebar()><img src="images/cancel.png" id="nav-img" alt=""></li>
                 <li class="nav-title-sidebar" onclick="window.location.href='#f-project'">Projects</li>
-                <li class="nav-title-sidebar" onclick="window.location.href='Kailash Solanki Resume.pdf'">Download my CV
-                </li>
+                <li class="nav-title-sidebar" onclick="window.location.href='certificates.html'">Certificates</li>
+                <li class="nav-title-sidebar" onclick="window.location.href='Kailash Solanki Resume.pdf'">Download my CV</li>
                 <li class="nav-title-sidebar" onclick="window.location.href='#cnt-contacts'">Contact me</li>
             </ul>
         </nav>
