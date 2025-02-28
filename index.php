@@ -276,7 +276,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $mail->Port = 587;
 
     $mail->Username = 'solanki.kailash.3112@gmail.com'; // Use environment variable
-    $mail->Password = "bakh mzsd iiqd xglg"; // Use environment variable
+    $mail->Password = "zeen qbes mgbx llep"; // Use environment variable
 
     $mail->setFrom($email, $name);
     $mail->addAddress('solanki.kailash.3112@gmail.com', 'Kailash Solanki');
