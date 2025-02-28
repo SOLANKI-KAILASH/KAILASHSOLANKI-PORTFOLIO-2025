@@ -196,7 +196,7 @@
                     Government Polytechnic Ahmedabad
                 </div>
                 <div class="ed-sec-desc">
-                    CPI &#8827; &#8827; 9.83
+                    CGPA &#8827; &#8827; 9.29
                 </div>
                 <div class="ed-sec-year">
                     2023 - 2026
