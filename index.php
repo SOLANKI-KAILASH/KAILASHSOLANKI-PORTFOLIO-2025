@@ -109,7 +109,8 @@
                 <div class="project-design">
                     <img src="images/travel_tickets_website.png" alt="" id="project-img">
                     <h1 id="project-title2">Travel Tickets Website Project</h1><br>
-                    <button class="live-demo">Live Demo</button>
+                    <button onclick="window.location.href='https://kailash1577.pythonanywhere.com/';" class="live-demo">Live
+                        Demo</button>
                     <button
                         onclick="window.location.href='https://github.com/SOLANKI-KAILASH/TRAVELTICKETS-WEBSITE-2024';"
                         class="source-code">Source Code</button>
@@ -119,7 +120,8 @@
                 <div class="project-design">
                     <img src="images/vedicvastra_website.png" alt="" id="project-img">
                     <h1 id="project-title1">Vedic Vastra Website Project</h1><br>
-                    <button class="live-demo">Live Demo</button>
+                    <button onclick="window.location.href='https://vedicvastra.pythonanywhere.com/';" class="live-demo">Live
+                        Demo</button>
                     <button
                         onclick="window.location.href='https://github.com/SOLANKI-KAILASH/VEDICVASTRA-WEBSITE-2024';"
                         class="source-code">Source Code</button>
