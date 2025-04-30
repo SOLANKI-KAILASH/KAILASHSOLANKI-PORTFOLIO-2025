@@ -101,7 +101,7 @@
                 <div class="project-design">
                     <img src="images/school_website.png" alt="" id="project-img">
                     <h1 id="project-title1">School Website Project</h1> <br>
-                    <button onclick="window.location.href='https://littleflowerschool.netlify.app/';"
+                    <button onclick="window.location.href='https://littleflower-school.netlify.app/';"
                         class="live-demo">Live Demo</button>
                     <button onclick="window.location.href='https://github.com/SOLANKI-KAILASH/SCHOOL-WEBSITE-2024';"
                         class="source-code">Source Code</button>
