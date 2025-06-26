@@ -106,7 +106,7 @@
                     <h1 id="project-title1">Aapka Apna Khabari App Project</h1> <br>
                     <button onclick="window.location.href='https://www.linkedin.com/posts/kailash-solanki_flutter-uidesign-mobileapp-activity-7342474714168143873-ngSb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExA2bUBqYrBNk17FVeSHyRGvFLi9BSg9P8';"
                         class="live-demo">Video Demo</button>
-                    <button onclick="window.location.href='https://kailashsolanki.netlify.app/Aapka Apna Khabari.apk';"
+                    <button onclick="window.location.href='https://drive.google.com/file/d/1IF2GioC4ic-XXczPNkljcBS2GTy6zIsH/view';"
                         class="source-code">Download </button>
                     <button onclick="window.location.href='https://github.com/SOLANKI-KAILASH/NEWS-APP-2025';"
                         class="source-code">Source Code</button>
@@ -116,6 +116,8 @@
                     <h1 id="project-title1">Blinkit App Project</h1> <br>
                     <button onclick="window.location.href='https://www.linkedin.com/posts/kailash-solanki_flutter-uidesign-mobileapp-activity-7342474714168143873-ngSb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExA2bUBqYrBNk17FVeSHyRGvFLi9BSg9P8';"
                         class="live-demo">Video Demo</button>
+                        <button onclick="window.location.href='https://drive.google.com/file/d/1LWGMt4Z9pZA_WW9591WpqivzXLTQrQEA/view';"
+                        class="source-code">Download </button>
                     <button onclick="window.location.href='https://github.com/SOLANKI-KAILASH/BLINKIT-APP-2025';"
                         class="source-code">Source Code</button>
                 </div>
@@ -294,7 +296,6 @@
     </footer><br>
 </body>
 </html>
-
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
