@@ -59,14 +59,16 @@
     </div>
     <div class="skills-kailash">
         <div class="skill-web">
-            <p id="web-dev">Web Development</p>
+            <p id="web-dev">Web & App Development</p>
             <div class="tech-skill-section">
                 <img src="images/html.png" id="tech-image1" alt="">
                 <img src="images/css.png" id="tech-image2" alt="" srcset="">
                 <img src="images/bootstrap.png" id="tech-image1" alt="" srcset="">
             </div>
             <div class="tech-skill-section">
-                <img src="images/django1.webp" id="tech-image1" alt="">
+                <img src="images/django1.webp" id="tech-image1" alt="" >
+                <img src="images/flutter.png" id="tech-image1" alt="" srcset="" style="height: 80px;width: 100px;">
+                
                 <!-- add more-->
             </div>
         </div>
@@ -75,6 +77,7 @@
             <div class="tech-skill-section">
                 <img src="images/python.png" id="tech-image1" alt="">
                 <img src="images/java.svg" id="tech-image1" alt="" srcset="">
+                <img src="images/dart.png" id="tech-image2" alt="" srcset="">
             </div>
         </div>
         <div class="skill-dm">
@@ -93,12 +96,39 @@
                 <img src="images/arrow.png" id="arrow3" alt="" srcset="">
             </div>
             <div id="projects-desc">
-                I have designed <br> more than 4 products
+                I have designed <br> more than 6 products
             </div>
         </div>
         <div class="project-sections">
             <div class="project-section-div">
                 <div class="project-design">
+                    <img src="images/news_app.png" alt="" id="project-img">
+                    <h1 id="project-title1">Aapka Apna Khabari App Project</h1> <br>
+                    <button onclick="window.location.href='https://www.linkedin.com/posts/kailash-solanki_flutter-uidesign-mobileapp-activity-7342474714168143873-ngSb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExA2bUBqYrBNk17FVeSHyRGvFLi9BSg9P8';"
+                        class="live-demo">Video Demo</button>
+                    <button onclick="window.location.href='https://kailashsolanki.netlify.app/Aapka Apna Khabari.apk';"
+                        class="source-code">Download </button>
+                    <button onclick="window.location.href='https://github.com/SOLANKI-KAILASH/NEWS-APP-2025';"
+                        class="source-code">Source Code</button>
+                </div>
+                <div class="project-design">
+                    <img src="images/blinkit.png" alt="" id="project-img">
+                    <h1 id="project-title1">Blinkit App Project</h1> <br>
+                    <button onclick="window.location.href='https://www.linkedin.com/posts/kailash-solanki_flutter-uidesign-mobileapp-activity-7342474714168143873-ngSb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAExA2bUBqYrBNk17FVeSHyRGvFLi9BSg9P8';"
+                        class="live-demo">Video Demo</button>
+                    <button onclick="window.location.href='https://github.com/SOLANKI-KAILASH/BLINKIT-APP-2025';"
+                        class="source-code">Source Code</button>
+                </div>
+                <div class="project-design">
+                    <img src="images/tnlfs-website.png" alt="" id="project-img">
+                    <h1 id="project-title2">TNLFS School Website Project</h1><br>
+                    <button onclick="window.location.href='https://thenewlittleflowerschool.netlify.app/';" class="live-demo">Live
+                        Demo</button>
+                    <button
+                        onclick="window.location.href='https://github.com/SOLANKI-KAILASH/TNLFS-WEBSITE-2025';"
+                        class="source-code">Source Code</button>
+                </div>
+                 <div class="project-design">
                     <img src="images/school_website.png" alt="" id="project-img">
                     <h1 id="project-title1">School Website Project</h1> <br>
                     <button onclick="window.location.href='https://littleflower-school.netlify.app/';"
@@ -115,8 +145,6 @@
                         onclick="window.location.href='https://github.com/SOLANKI-KAILASH/TRAVELTICKETS-WEBSITE-2024';"
                         class="source-code">Source Code</button>
                 </div>
-            </div>
-            <div class="project-section-div">
                 <div class="project-design">
                     <img src="images/vedicvastra_website.png" alt="" id="project-img">
                     <h1 id="project-title1">Vedic Vastra Website Project</h1><br>
@@ -134,6 +162,12 @@
                     <button onclick="window.location.href='https://github.com/SOLANKI-KAILASH/INSTAGRAM-CLONE-2024';"
                         class="source-code">Source Code</button>
                 </div>
+            </div>
+            <div class="project-section-div">
+               
+            </div>
+            <div class="project-section-div">
+                
             </div>
         </div>
     </div>
@@ -154,12 +188,21 @@
             <div class="experiences-section-container">
                 <div id="experiences-no">1</div>
                 <div class="experiences-section-details">
+                    <div id="experiences-title">Flutter Intern at <strong>InfoLabz</strong></div>
+                    <div id="experiences-desc">Worked on Fundamentals of Flutter, UI design, API Calling</div>
+                    <div id="experiences-year"> 27, May 2025 to 11 July 2025 </div>
+                </div>
+            </div>
+            <div class="experiences-section-container">
+                <div id="experiences-no">2</div>
+                <div class="experiences-section-details">
                     <div id="experiences-title">Python / Django Intern at <strong>InfoLabz</strong></div>
                     <div id="experiences-desc">Worked on Fundamentals of Python, Back-end Web-Development using Django
                         Framework</div>
                     <div id="experiences-year"> 27, June 2024 to 10 July 2024 </div>
                 </div>
             </div>
+            
         </div>
     </div>
     <br><br><br><br><br><br>

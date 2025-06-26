@@ -216,8 +216,8 @@ nav ul {
 #web-dev {
     font-family: "Inter";
     background-color: #eecd56;
-    font-size: 30px;
-    padding-left: 50px;
+    font-size: 28px;
+    padding-left: 30px;
     font-weight: 600;
 }
 
@@ -275,7 +275,7 @@ nav ul {
 
 .projects {
     display: flex;
-    gap: 30px;
+    gap: 80px;
 }
 
 #projects-desc,
@@ -298,6 +298,8 @@ nav ul {
 
 .project-section-div {
     display: flex;
+    flex-wrap: wrap;
+    
     gap: 20px;
 }
 
