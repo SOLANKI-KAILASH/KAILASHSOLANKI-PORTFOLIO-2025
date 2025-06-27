@@ -1235,9 +1235,7 @@ input {
     #button-style2 {
         margin-left: 0px;
     }
-    .live-demo{
-        font-size: 17px;
-    }
+    
     .footer {
         display: flex;
         flex-direction: column;
