@@ -1,3 +1,8 @@
+::selection {
+  background-color: #ffff00;
+  color: #000000;
+}
+
 body {
     background-image: url(images/background.jpg);
     border: 3px solid black;
